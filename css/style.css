@@ -140,6 +140,11 @@ blockquote.quote {
   font-size: 22px;
 }
 
+ul.blogButtons {
+  margin-left: -50px;
+  display: inline-block;
+}
+
 .blogButtons a {
   display: inline-block;
   margin-left: 5px;
@@ -193,6 +198,19 @@ aside img {
     background-position: center;
     width: 320px;
     height: 300px;
+}
+
+a.adLink {
+  display: block;
+  text-align: left;
+  padding-left: 290px;
+  text-decoration: underline;
+  font-size: 14px;
+  color: gray;
+}
+
+p.adLink:hover {
+  color: #404040;
 }
 
 
@@ -258,9 +276,15 @@ aside h3 {
 }
 
 h4.postTitle {
-  /*display: inline-block;
+  /*font-weight: bold;*/
+  display: block;
+  font-size: 25px;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
   color: #253859;
-  position: relative;*/
+  position: relative;
+  padding-top: 200px;
+  margin-left: 20px;
+  text-align: left;
 }
 
 #one.postCover {
