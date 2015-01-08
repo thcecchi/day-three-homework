@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(
+    rgba(4, 94, 184, 0.70),
+    rgba(4, 94, 184, 0.70)
+    ), url("../img/waves.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: white;
+}
+
+.topLockup {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-left: 100px;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  color: #253859;
+  font-weight: bold;
+}
+
+img.spLogo {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.spLogo {
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+}
+
+.topNav {
+  float: left;
+}
+
+.topNav a {
+  text-decoration: none;
+  color: #253859;
+  font-weight: bold;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+.topNav a:hover {
+  color: white;
+}
+
+.topNav img {
+  /*display: inline;*/
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+
+.title {
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+h1.title {
+  padding-top: 160px;
+  font-size: 65px;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+h5.title {
+  padding-bottom: 160px;
+  color: #253859;
+}
+
+article {
+  width: 45%;
+  float: left;
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 5%;
+  height: 900px;
+}
+
+article h1 {
+  font-size: 42px;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  color: #253859;
+  margin-bottom: 0;
+}
+
+.byline {
+  width: 100%;
+  float: left;
+}
+
+.byline img {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.byline p {
+  display: inline-block;
+  float: left;
+  padding-right: 3px;
+  color: #1875CC;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+}
+
+a.blogDate {
+  display: inline-block;
+  margin-top: 19px;
+  text-decoration: underline;
+  color: gray;
+}
+
+a.blogDate:hover {
+  color: lightgray;
+}
+
+article p {
+  line-height: 1.5em;
+  color: #404040;
+}
+
+blockquote.quote {
+  color: #1875CC;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+  font-size: 22px;
+}
+
+.blogButtons a {
+  display: inline-block;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: lightgray;
+  text-decoration: none;
+  color: white;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+}
+
+#comments::before {
+  content: url(../img/bubblesmall.png);
+}
+
+#readLater::before {
+  content: url(../img/cloudsmall.png);
+}
+
+#share::before {
+  content: url(../img/sharesmall.png);
+}
+
+.blogButtons a:hover {
+  color: white;
+  background-color: #1875CC;
+}
+
+aside {
+  width: 35%;
+  float: left;
+  background-color: white;
+  height: 900px;
+}
+
+aside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideAd {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(
+    rgba(30, 144, 255, 0.45),
+    rgba(30, 144, 255, 0.45)
+    ), url("../img/padleboarding.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height: 300px;
+}
+
+
+aside ul, h3 {
+  text-align: center;
+}
+
+aside a {
+  text-decoration: none;
+  color: gray;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+}
+
+aside a:hover {
+  color: #404040;
+}
+
+img.headshot {
+  margin-top: 50px;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+}
+
+.aboutAnne {
+  padding-left: 50px;
+  padding-right: 43px;
+  line-height: 1.5em;
+  color: #404040;
+}
+
+.aboutAnne h3 {
+  text-align: left;
+}
+
+aside h3 {
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+  color: #1875CC;
+}
+
+.popularPosts {
+  width: 100%;
+  background-color: white;
+  border-top: 2px solid gray;
+  display: inline-block;
+  font-size: 0px;
+  position: relative;
+}
+
+.popularPosts h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'PT Sans', Helvetica, Sans-serif;
+  color: #253859;
+  position: relative;
+}
+
+.postCover {
+  width: 25%;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h4.postTitle {
+  /*display: inline-block;
+  color: #253859;
+  position: relative;*/
+}
+
+#one.postCover {
+  background: url("../img/kellyslater.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#one.postCover:hover {
+  background: linear-gradient(
+    rgba(30, 144, 255, 0.45),
+    rgba(30, 144, 255, 0.45)
+    ), url("../img/kellyslater.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#two.postCover {
+  background: url("../img/beer-flight.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#two.postCover:hover {
+  background: linear-gradient(
+    rgba(30, 144, 255, 0.45),
+    rgba(30, 144, 255, 0.45)
+    ),
+    url("../img/beer-flight.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#three.postCover {
+  background: url("../img/zach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#three.postCover:hover {
+  background: linear-gradient(
+    rgba(30, 144, 255, 0.45),
+    rgba(30, 144, 255, 0.45)
+    ), url("../img/zach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#four.postCover {
+  background: url("../img/liquor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#four.postCover:hover {
+  background: linear-gradient(
+    rgba(30, 144, 255, 0.45),
+    rgba(30, 144, 255, 0.45)
+    ), url("../img/liquor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #253859;
+}
+
+.ironYardLogo {
+  display: inline-block;
+  vertical-align: top;
+  height: 75px;
+  width: 75px;
+  margin-left: 50px;
+}
+
+.footerLockup {
+  display: inline-block;
+  vertical-align: top;
+}
+
+p.copyrightText {
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  padding-top: 20px;
+  color: gray;
+}
+
+.footerNav {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 210px;
+  padding-top: 10px;
+}
+
+.footerNav a{
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footerNav a:hover {
+  color: white;
+}
