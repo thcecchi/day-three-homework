@@ -150,7 +150,8 @@ ul.blogButtons {
   margin-left: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: lightgray;
+  padding-bottom: 1px;
+  background-color: gray;
   text-decoration: none;
   color: white;
   font-family: 'PT Sans', Helvetica, Sans-serif;
@@ -158,14 +159,38 @@ ul.blogButtons {
 
 #comments::before {
   content: url(../img/bubblesmall.png);
+  position: relative;
+  background: #253859;
+  background-size: 800px;
+  padding-top: 8px;
+  padding-right: 5px;
+  padding-left: 7px;
+  margin-left: -5px;
+  top: 2px;
 }
 
 #readLater::before {
   content: url(../img/cloudsmall.png);
+  position: relative;
+  background: #253859;
+  background-size: 800px;
+  padding-top: 8px;
+  padding-right: 5px;
+  padding-left: 7px;
+  margin-left: -5px;
+  top: 2px;
 }
 
 #share::before {
   content: url(../img/sharesmall.png);
+  background: #253859;
+  background-size: 800px;
+  padding-top: 6px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-left: 7px;
+  margin-left: -5px;
+
 }
 
 .blogButtons a:hover {
@@ -291,6 +316,10 @@ h4.postTitle {
   text-align: left;
 }
 
+.postTitle:hover {
+  color: white;
+}
+
 #one.postCover {
   background: url("../img/kellyslater.jpg");
   background-repeat: no-repeat;
@@ -335,6 +364,7 @@ h4.postTitle {
     ), url("../img/zach.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
   }
 
 #four.postCover {
